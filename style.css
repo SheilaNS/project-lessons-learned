@@ -13,5 +13,11 @@ body {
 }
 
 #titulo {
-    
+
+}
+
+#minha_foto {
+    width: 300px;
+    position: relative;
+    margin-top: 50px;
 }
