@@ -86,7 +86,7 @@ table {
   margin: 5px auto;
 }
 
-.tabela tr, .tabela th , .tabela td {
+.tabela tr, .tabela th, .tabela td {
   border-collapse: collapse;
   border: plum dashed 1px;
 }
@@ -102,7 +102,7 @@ table {
   float: left;
   padding: 40px;
   padding-left: 80px;
-  padding-bottom: 0px;
+  padding-bottom: 0;
 }
 
 .lado-direito {
@@ -112,6 +112,7 @@ table {
   padding-top: 100px;
   padding-right: 70px;
 }
+
 aside {
   width: 400px;
   margin: 5px auto;
