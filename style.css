@@ -1,119 +1,119 @@
 * {
-    margin: 0;
-    border: 0;
+  margin: 0;
+  border: 0;
 }
 
 body {
-    background-color: rgb(253, 251, 251);
-    font-family: Mali, cursive;
-    color: rgb(138, 43, 226);
+  background-color: rgb(253, 251, 251);
+  font-family: Mali, cursive;
+  color: blueviolet;
 }
 
 header {
-    padding: 20px;
-    box-shadow: 0 2px 12px rgb(100 95 136 / 20%);
-    background-color: rgb(255, 255, 255);
+  padding: 20px;
+  box-shadow: 0 2px 12px rgb(100 95 136 / 20%);
+  background-color: white;
 }
 
 main {
-    text-align: center;
-    padding: 0 20px;
-    margin-bottom: 80px;
+  text-align: center;
+  padding: 0 20px;
+  margin-bottom: 80px;
 }
 
 
 #cabecalho {
-    position: fixed;
-    top: 0;
-    z-index: 2;
-    width: 100%;
-    background-image: url(/images/star-header.jpg);
+  position: fixed;
+  top: 0;
+  z-index: 2;
+  width: 100%;
+  background-image: url(/images/star-header.jpg);
 }
 
 #titulo {
-    font-size: 40px;
-    line-height: 80px;
-    text-align: center;
-    color: rgb(135, 212, 222);
+  font-size: 40px;
+  line-height: 80px;
+  text-align: center;
+  color: rgb(135, 212, 222);
 }
 
 #minha_foto {
-    width: 300px;
-    margin-top: 30px;
+  width: 300px;
+  margin-top: 30px;
 }
 
 #rodape {
-    position: fixed;
-    bottom: 0;
-    z-index: 2;
-    padding: 20px;
-    width: 100%;
-    text-align: center;
-    background-image: url(/images/star-header.jpg);
-    color: rgb(135, 212, 222);
+  position: fixed;
+  bottom: 0;
+  z-index: 2;
+  padding: 20px;
+  width: 100%;
+  text-align: center;
+  background-image: url(/images/star-header.jpg);
+  color: rgb(135, 212, 222);
 }
 
 .apresentacao {
-    position: relative;
-    width: 80%;
-    margin: 5px auto;
-    margin-top: 180px;
+  position: relative;
+  width: 80%;
+  margin: 5px auto;
+  margin-top: 180px;
 }
 
 .menu-contatos ul {
-    text-align: center;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
+  text-align: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
 }
 
 .menu-contatos li {
-    display: inline-block;
-    text-decoration: none;
+  display: inline-block;
+  text-decoration: none;
 }
 
 .menu-contatos img {
-    width: 40px;
+  width: 40px;
 }
 
 .tabela {
-    clear: both;
-    margin: 5px auto;
+  clear: both;
+  margin: 5px auto;
 }
 
 table {
-    margin: 5px auto;
+  margin: 5px auto;
 }
 
 .tabela tr, .tabela th , .tabela td {
-    border-collapse: collapse;
-    border: rgb(221, 160, 221) dashed 1px;
+  border-collapse: collapse;
+  border: plum dashed 1px;
 }
 
 .lista {
-    display: inline-block;
-    margin: 20px auto;
-    border: 1px dotted rgb(255, 192, 203);
-    padding: 5px;
+  display: inline-block;
+  margin: 20px auto;
+  border: 1px dotted pink;
+  padding: 5px;
 }
 
 .lado-esquerdo {
-    float: left;
-    padding: 40px;
-    padding-left: 80px;
-    padding-bottom: 0px;
+  float: left;
+  padding: 40px;
+  padding-left: 80px;
+  padding-bottom: 0px;
 }
 
 .lado-direito {
-    float: right;
-    width: 40%;
-    padding: 40px;
-    padding-top: 100px;
-    padding-right: 70px;
+  float: right;
+  width: 40%;
+  padding: 40px;
+  padding-top: 100px;
+  padding-right: 70px;
 }
 aside {
-    width: 400px;
-    margin: 5px auto;
-    padding: 5px;
+  width: 400px;
+  margin: 5px auto;
+  padding: 5px;
 }
