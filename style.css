@@ -5,14 +5,14 @@
 
 body {
     background-color: rgb(253, 251, 251);
-    font-family: 'Mali', cursive;
-    color: blueviolet;
+    font-family: Mali, cursive;
+    color: rgb(138, 43, 226);
 }
 
 header {
     padding: 20px;
     box-shadow: 0 2px 12px rgb(100 95 136 / 20%);
-    background-color: #ffffff;
+    background-color: rgb(255, 255, 255);
 }
 
 main {
@@ -34,7 +34,7 @@ main {
     font-size: 40px;
     line-height: 80px;
     text-align: center;
-    color: #87d4de;
+    color: rgb(135, 212, 222);
 }
 
 #minha_foto {
@@ -50,13 +50,13 @@ main {
     width: 100%;
     text-align: center;
     background-image: url(/images/star-header.jpg);
-    color: #87d4de;
+    color: rgb(135, 212, 222);
 }
 
 .apresentacao {
     position: relative;
     width: 80%;
-    margin:5px auto;
+    margin: 5px auto;
     margin-top: 180px;
 }
 
@@ -88,25 +88,25 @@ table {
 
 .tabela tr, .tabela th , .tabela td {
     border-collapse: collapse;
-    border:plum dashed 1px;
+    border: rgb(221, 160, 221) dashed 1px;
 }
 
 .lista {
     display: inline-block;
     margin: 20px auto;
-    border: 1px dotted pink;
+    border: 1px dotted rgb(255, 192, 203);
     padding: 5px;
 }
 
 .lado-esquerdo {
-    float:left;
+    float: left;
     padding: 40px;
     padding-left: 80px;
     padding-bottom: 0px;
 }
 
 .lado-direito {
-    float:right;
+    float: right;
     width: 40%;
     padding: 40px;
     padding-top: 100px;
