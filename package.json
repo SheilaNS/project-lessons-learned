@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/tryber/sd-03-week3-html-css-project-tests#readme",
   "devDependencies": {
+    "autoprefixer": "^10.4.13",
     "cypress": "^5.0.0",
     "cypress-multi-reporters": "^1.2.3",
     "minimist": ">=1.2.2",
@@ -26,7 +27,9 @@
     "mochawesome": "^4.1.0",
     "mochawesome-merge": "^4.0.0",
     "mochawesome-report-generator": "^4.1.0",
+    "postcss": "^8.4.18",
     "stylelint": "^13.8.0",
-    "stylelint-config-standard": "^20.0.0"
+    "stylelint-config-standard": "^20.0.0",
+    "tailwindcss": "^3.2.2"
   }
 }
