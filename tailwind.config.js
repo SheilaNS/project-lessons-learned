@@ -3,8 +3,7 @@ module.exports = {
   content: [ './index.html' ],
   theme: {
     fontFamily: {
-      sans: ['Graphik', 'sans-serif'],
-      serif: ['Merriweather', 'serif'],
+      sans: ['Mali', 'sans-serif'],
     },
     extend: {},
   },

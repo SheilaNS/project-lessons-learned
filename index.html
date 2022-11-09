@@ -2,107 +2,119 @@
 <html lang="pt-br">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Mali:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <!-- <link rel="stylesheet" href="style.css"> -->
-    <link href="/dist/output.css" rel="stylesheet">
-    <title>Lessons Learned: SheilaNS</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Mali:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Quicksand:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
+  <!-- <link rel="stylesheet" href="style.css"> -->
+  <link href="/dist/output.css" rel="stylesheet">
+  <title>Lessons Learned: SheilaNS</title>
 </head>
 
 <body>
-    <header id="cabecalho">
-        <h1 id="titulo" class="text-3xl font-bold underline">Lessons Learned by Sheila Nakahsima dos Santos</h1>
-        <nav class="menu-contatos">
-            <ul>
-                <li><a href="https://www.linkedin.com/in/sheila-nakashima-dos-santos/" target="_blank"><img
-                            src="images/linkedin.png" alt="Imagem do LinkedIn"></a></li>
-                <li><a href="https://github.com/SheilaNS" target="_blank"><img src="images/github.png"
-                            alt="Imagem do GitHub"></a></li>
-                <li><a href="https://www.instagram.com/sheinaka/" target="_blank"><img src="images/instagram.png"
-                            alt="Imagem do Instagram"></a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <section class="apresentacao">
-            <p>Meu nome é Sheila Nakashima dos Santos e este é o primeiro projeto de muitos que vou realizar durante o
-                curso da Trybe de Desenvolvimento Web. Aqui você pode ver o que eu aprendi e o que eu desejo aprender até o fim do curso
-                e uma pequena tabela do antes e o depois de começar esse curso.</p>
-            <img src="images/eu.jpeg" id="minha_foto" alt="Minha Foto">
-        </section>
-        <section class="aprendizado lado-esquerdo">
-            <section class="lista">
-                <p>O que eu aprendi</p>
-                <ol id="licoes_aprendidas">
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>Git</li>
-                    <li>GitHub</li>
-                    <li>Bash</li>
-                    <li>Shell</li>
-                    <li>Internet</li>
-                    <li>Autoliderança</li>
-                    <li>Comunicação assertiva</li>
-                    <li>PDI</li>
-                </ol>
-            </section>
-            <section class="lista">
-                <p>O que eu desejo aprender</p>
-                <ul id="licoes_a_aprender">
-                    <li>JavaScript</li>
-                    <li>React</li>
-                    <li>Metodologias ágeis</li>
-                    <li>API</li>
-                    <li>Docker</li>
-                    <li>SQL</li>
-                    <li>NodeJS</li>
-                    <li>MongoDB</li>
-                    <li>Phyton</li>
-                    <li>Melhorar minhas Soft Skills</li>
-                </ul>
-            </section>
-        </section>
-        <article class="lado-direito">
-            <p>ARTIGO: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vulputate tristique mauris id
-                mattis.
-                Ut eget est non libero tincidunt pellentesque. Vivamus ac leo quis diam elementum ullamcorper.Lorem
-                ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vulputate tristique mauris id mattis.
-                Ut eget est non libero tincidunt pellentesque. Vivamus ac leo quis diam elementum ullamcorper.</p>
-        </article>
-        <section class="tabela">
-            <table>
-                <tr>
-                    <th>Antes</th>
-                    <th>Depois</th>
-                </tr>
-                <tr>
-                    <td>Salário R$ 0,00</td>
-                    <td>Salário R$ 3000,00</td>
-                </tr>
-                <tr>
-                    <td>Tímida</td>
-                    <td>Comunicativa</td>
-                </tr>
-                <tr>
-                    <td>Não é Dev</td>
-                    <td>É Dev</td>
-                </tr>
-            </table>
-        </section>
+  <header class="bg-[url('/images/star-header.jpg')] flex flex-col p-8 gap-4">
+    <h1 class="text-3xl text-cyan-100 text-center font-bold">Lessons Learned by Sheila Nakahsima dos Santos</h1>
+    <nav class="flex justify-center">
+      <ul class="flex flex-row justify-center gap-2">
+        <li class="flex h-14">
+          <a href="https://www.linkedin.com/in/sheila-nakashima-dos-santos/" target="_blank">
+            <img src="images/linkedin.png" alt="Imagem do LinkedIn">
+          </a>
+        </li>
+        <li class="flex h-14">
+          <a href="https://github.com/SheilaNS" target="_blank">
+            <img src="images/github.png" alt="Imagem do GitHub">
+          </a>
+        </li>
+        <li class="flex h-14">
+          <a href="https://www.instagram.com/sheinaka/" target="_blank">
+            <img src="images/instagram.png" alt="Imagem do Instagram">
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main class="flex flex-col">
+    <section class="mb-4 flex flex-col items-center gap-2">
+      <img class="mt-4 rounded-full" width="200px" src="images/eu.jpeg" alt="Minha Foto">
+      <p class="max-w-lg p-2 text-center">Meu nome é Sheila Nakashima dos Santos e este é o primeiro projeto de muitos que vou realizar durante o
+        curso da Trybe de Desenvolvimento Web. Aqui você pode ver o que eu aprendi e o que eu desejo aprender até o fim
+        do curso
+        e uma pequena tabela do antes e o depois de começar esse curso.</p>
+    </section>
+    <section class="p-6 flex justify-center gap-6">
+      <section class="">
+        <p>O que eu aprendi</p>
+        <ol class="list-decimal pl-6">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>Git</li>
+          <li>GitHub</li>
+          <li>Bash</li>
+          <li>Shell</li>
+          <li>Internet</li>
+          <li>Autoliderança</li>
+          <li>Comunicação assertiva</li>
+          <li>PDI</li>
+        </ol>
+      </section>
+      <section>
+        <p>O que eu desejo aprender</p>
+        <ul>
+          <li>JavaScript</li>
+          <li>React</li>
+          <li>Metodologias ágeis</li>
+          <li>API</li>
+          <li>Docker</li>
+          <li>SQL</li>
+          <li>NodeJS</li>
+          <li>MongoDB</li>
+          <li>Phyton</li>
+          <li>Melhorar minhas Soft Skills</li>
+        </ul>
+      </section>
+    </section>
+    <article>
+      <p>ARTIGO: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vulputate tristique mauris id
+        mattis.
+        Ut eget est non libero tincidunt pellentesque. Vivamus ac leo quis diam elementum ullamcorper.Lorem
+        ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vulputate tristique mauris id mattis.
+        Ut eget est non libero tincidunt pellentesque. Vivamus ac leo quis diam elementum ullamcorper.</p>
+    </article>
+    <section>
+      <table>
+        <tr>
+          <th>Antes</th>
+          <th>Depois</th>
+        </tr>
+        <tr>
+          <td>Salário R$ 0,00</td>
+          <td>Salário R$ 3000,00</td>
+        </tr>
+        <tr>
+          <td>Tímida</td>
+          <td>Comunicativa</td>
+        </tr>
+        <tr>
+          <td>Não é Dev</td>
+          <td>É Dev</td>
+        </tr>
+      </table>
+    </section>
 
-        <aside>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vulputate tristique mauris id mattis.
-                Ut eget est non libero tincidunt pellentesque. Vivamus ac leo quis diam elementum ullamcorper.</p>
-        </aside>
+    <aside>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vulputate tristique mauris id mattis.
+        Ut eget est non libero tincidunt pellentesque. Vivamus ac leo quis diam elementum ullamcorper.</p>
+    </aside>
 
-    </main>
-    <footer id="rodape">Projeto elaborado por Sheila Nakashima dos Santos. Estudante de Desenvolvimento Web da <a
-            href="https://www.betrybe.com/" target="_blank">Trybe</a>,
-        2021.</footer>
+  </main>
+  <footer>Projeto elaborado por Sheila Nakashima dos Santos. Estudante de Desenvolvimento Web da <a
+      href="https://www.betrybe.com/" target="_blank">Trybe</a>,
+    2021.</footer>
 </body>
 
 </html>
