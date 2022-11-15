@@ -5,7 +5,8 @@
 Projeto do Bloco 3 - Introdução à HTML & CSS curso de Desenvolvimento Web da [Trybe](https://www.betrybe.com).<br>
 Primeiro projeto do curso para colocar na prática o conhecimento adquirido sobre HTML e CSS.<br><br>
 Quantidade de requisitos: 15<br>
-Requisitos feitos: 15
+Requisitos feitos: 15<br><br>
+URL: https://sheilans.github.io/project-lessons-learned/
 
 ## :computer: Habilidades desenvolvidas
 
@@ -16,7 +17,7 @@ Requisitos feitos: 15
 ## :speaking_head: Linguagens utilizadas
 <div align="left">
   <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" display="block" title="HTML5"><img alt="HTML5 icon" height="20px" width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" />HTML</a>
-  <a href="https://developer.ozilla.org/pt-BR/docs/Web/CSS" title="CSS3"><img alt="CSS3 icon" height="20px" width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" />CSS</a>
+  <a href="https://tailwindcss.com/" title="TailwindCSS"><img alt="TailwindCss icon" height="20px" width="30px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" />TailwindCSS</a>
 </div>
 
 ## :building_construction: Estrutura do projeto
