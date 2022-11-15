@@ -1,9 +1,9 @@
 * {
   margin: 0;
-  border: 0;
+  border: 1px solid red;
 }
 
-body {
+/* body {
   background-color: rgb(253, 251, 251);
   font-family: Mali, cursive;
   color: blueviolet;
@@ -19,7 +19,7 @@ main {
   text-align: center;
   padding: 0 20px;
   margin-bottom: 80px;
-}
+} */
 
 
 #cabecalho {
@@ -113,8 +113,8 @@ table {
   padding-right: 70px;
 }
 
-aside {
+/* aside {
   width: 400px;
   margin: 5px auto;
   padding: 5px;
-}
+} */
